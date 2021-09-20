@@ -34,6 +34,7 @@ if (userInput !== SCISSORS && userInput !== ROCK && userInput !== PAPER) {
         } else {
             alert('컴퓨터:' + comInput +'로 컴퓨터에게 이겼습니다.');
         }
+
     } else if (userInput === ROCK) {
         if (comInput === SCISSORS) {
             alert('컴퓨터:' + comInput +'로 컴퓨터와 이겼습니다.');
@@ -42,6 +43,7 @@ if (userInput !== SCISSORS && userInput !== ROCK && userInput !== PAPER) {
         } else {
             alert('컴퓨터:' + comInput +'로 컴퓨터에게 졌습니다.');
         }
+
     } else {
         if (comInput === SCISSORS) {
             alert('컴퓨터:' + comInput +'로 컴퓨터와 졌습니다.');
