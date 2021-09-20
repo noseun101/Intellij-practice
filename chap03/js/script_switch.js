@@ -52,7 +52,6 @@ switch(userInput) {
         }
         break;
 }
-
 // if문과 switch문으로 작성한 후
 // if문: 여러 조건들을 비교할 때는 편하지만 코드가 길어지거나 복잡할 때는 가독성이 떨어지는 것 같다.
 // switch문:
