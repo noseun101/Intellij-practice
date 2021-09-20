@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>평균값 계산기</title>
+</head>
+
+<script>
+    var v1 = prompt('1번 숫자를 입력해주세요.');
+    var v2 = prompt('2번 숫자를 입력해주세요.');
+
+    //  alert('합: ' + sum);
+
+    // 숫자를 합산한 결과를 얻을 수 없음.
+    // -> prompt()는 결과:문자열 리턴
+    // 즉 prompt()와 같은 API를 적용해야 한다.
+
+    // Number()
+    var num1 = Number(v1);
+    var num2 = Number(v2);
+
+    // 변수
+    // 1.JS는 C언어와 달리 변수를 명시적으로 지정해줄 필요가 없다.
+    // 2. 오로지 var키워드만 변수를 선언하면 된다.
+    // 3. 변수 선언시 값을 꼭 할당해줘야 한다.
+    // 4. 이미 할당된 변수에 다른 변수형을 가진 값을 할당해줄 수 있다.
+
+    // JS는 산술연산이 부동소수점의 형태를 지닌다.
+    // 1. 정수연산이 존재하지 않는다.
+    // 2. C나 JAVA언어를 JS로 옮겨올 때는 소숫점의 유무로 결과값의 변동 유발을 주의하자!!
+    var avg = (num1 + num2) / 2;
+
+    // 계산식을 alert 창으로 보여준다.
+    alert("평균값:" + avg);
+</script>
+<body>
+</body>
+</html>
