@@ -3,6 +3,7 @@ var SCISSORS = '가위';
 var ROCK = '바위';
 var PAPER = '보';
 
+// 버튼 클릭 시 동작하기 위한 함수
 function onScissorsClick() {
     var comInput;
     var randNum = Math.random();
