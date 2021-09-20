@@ -52,4 +52,5 @@ if (userInput !== SCISSORS && userInput !== ROCK && userInput !== PAPER) {
         }
     }
     // console.log("컴퓨터의 패:", comInput);
+
 }
