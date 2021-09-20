@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>While문을 이용한 평균값 계산기</title>
+</head>
+
+<script>
+    var sum =  0;
+    var totalNum = Number(prompt('숫자의 갯수를 입력해주세요!'));
+
+    var i = 1;
+
+    while( i <= totalNum ){
+        var v1 = prompt(i + '번 숫자를 입력하세요');
+        sum += Number(v1);
+        i++;
+    }
+
+    var avg = sum / totalNum;
+
+    alert("평균값:"+ avg);
+</script>
+<body>
+</body>
+</html>

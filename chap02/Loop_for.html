@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>for문을 이용한 평균값 계산기</title>
+</head>
+
+<script>
+    var sum = 0;
+
+    // 변수값 비교하는 곳의 변수 지정 시 코드가 간결해짐.
+    var totalNum = Number(prompt('숫자의 갯수를 입하세요.'));
+
+    // var num = prompt('개수를 입력해주세요');
+    // var totalNum = Number(num);
+
+    // 중복 방지 -> 반복문 사용
+    for (var i = 1; i <= totalNum; i++) {
+        var v1 = prompt(i +'번 숫자를 입력해주세요');
+
+        sum += Number(v1);
+    }
+
+    var avg = sum / totalNum;
+
+    alert('평균값:' + avg);
+
+</script>
+<body>
+</body>
+</html>
