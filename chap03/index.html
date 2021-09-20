@@ -6,8 +6,24 @@
 
     <!-- 지정된 파일의 경로를 정확히 기입하자.-->
     <script src="js/script.js"></script>
+    <script src="js/script_event.js"></script>
+
+    <style>
+        root {
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="root">
+        <!-- onclick의 속성값이 더 간결해짐, 많이 이용해보자.-->
+        <!--button onclick="alert('버튼이 클릭되었습니다!')">가위</button-->
+
+        <button onclick="onScissorsClick()">가위</button>
+        <button onclick="onRockClick()">바위</button>
+        <button onclick="onPaperClick()">보</button>
+    </div>
 
 </body>
 </html>
+

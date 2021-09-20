@@ -36,19 +36,19 @@ if (userInput !== SCISSORS && userInput !== ROCK && userInput !== PAPER) {
         }
     } else if (userInput === ROCK) {
         if (comInput === SCISSORS) {
-            alert('컴퓨터:' + comInput +'로 컴퓨터와 비겼습니다.');
+            alert('컴퓨터:' + comInput +'로 컴퓨터와 이겼습니다.');
         } else if (comInput === ROCK) {
-            alert('컴퓨터:' + comInput +'로 컴퓨터에게 졌습니다.');
+            alert('컴퓨터:' + comInput +'로 컴퓨터에게 비겼습니다.');
         } else {
-            alert('컴퓨터:' + comInput +'로 컴퓨터에게 이겼습니다.');
+            alert('컴퓨터:' + comInput +'로 컴퓨터에게 졌습니다.');
         }
     } else {
         if (comInput === SCISSORS) {
-            alert('컴퓨터:' + comInput +'로 컴퓨터와 비겼습니다.');
+            alert('컴퓨터:' + comInput +'로 컴퓨터와 졌습니다.');
         } else if (comInput === ROCK) {
-            alert('컴퓨터:' + comInput +'로 컴퓨터에게 졌습니다.');
-        } else {
             alert('컴퓨터:' + comInput +'로 컴퓨터에게 이겼습니다.');
+        } else {
+            alert('컴퓨터:' + comInput +'로 컴퓨터에게 비겼습니다.');
         }
     }
     // console.log("컴퓨터의 패:", comInput);

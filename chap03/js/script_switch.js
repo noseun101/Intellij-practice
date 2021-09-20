@@ -15,10 +15,10 @@ switch(userInput) {
                 alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
                 break;
             case ROCK:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 졌습니다.');
                 break;
             case PAPER:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 이겼습니다.');
                 break;
         }
         break;
@@ -26,13 +26,13 @@ switch(userInput) {
     case ROCK:
         switch(comInput) {
             case SCISSORS:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 이겼습니다.');
                 break;
             case ROCK:
                 alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
                 break;
             case PAPER:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 졌습니다.');
                 break;
         }
         break;
@@ -41,10 +41,10 @@ switch(userInput) {
     default:
         switch(comInput) {
             case SCISSORS:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 졌습니다.');
                 break;
             case ROCK:
-                alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
+                alert('컴퓨터:' + comInput + '로 컴퓨터와 이겼습니다.');
                 break;
             case PAPER:
                 alert('컴퓨터:' + comInput + '로 컴퓨터와 비겼습니다.');
