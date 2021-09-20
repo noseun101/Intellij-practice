@@ -66,6 +66,7 @@ function onPaperClick() {
         alert('컴퓨터:' + comInput + '로 컴퓨터에게 비겼습니다.');
     }
 }
+
 // onSicssorsClick과 onScissorsClick() 차이점
 // 전자는 함수 자체, 후자는 인자 없이 호출 시 리턴된느 결과값을 나타낸다.
 // 즉, 함수 호출시 () 붙이는 것을 주의해야한다.
