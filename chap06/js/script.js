@@ -10,7 +10,6 @@ for (let i = 1; i < 6; i++) {
     // Math.floor : 소수점 이하를 없앰.
     let index = Math.floor(Math.random() * list.length);
 
-
     // 랜덤으로 뽑은 숫자를 배열에 담고 변수 num에 저장함
     let num = list[index];
 
