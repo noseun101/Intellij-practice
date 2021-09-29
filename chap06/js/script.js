@@ -4,7 +4,9 @@ for (let i = 1; i <= 45; i++) {
     list.push(i); // i만큼 추가
 }
 
-for (let i = 0; i < 6; i++) {
+let result = [];
+
+for (let i = 1; i < 6; i++) {
     // Math.floor : 소수점 이하를 없앰.
     let index = Math.floor(Math.random() * list.length);
 
@@ -16,5 +18,7 @@ for (let i = 0; i < 6; i++) {
     // index 위치에 있는 요소만 제거함.
     list.splice(index, 1);
 
-    console.log(num, list);
+    result.push(num);
 }
+
+console.log("결과:", result);
