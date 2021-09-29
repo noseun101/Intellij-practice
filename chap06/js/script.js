@@ -21,7 +21,14 @@ for (let i = 0; i < 6; i++) {
 }
 
 // 오름차순으로 정렬함
-result.sort();
+// result.sort();
+
+function compare(a, b) {
+    return a - b;
+}
+
+// sort()가 함수 자체를 실행하여 각 배열 요소를 정렬함
+result.sort(compare);
 
 for (let i = 0; i < 6; i++) {
     // 띄어쓰기된 숫자가 출력 안된다.
