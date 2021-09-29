@@ -21,4 +21,10 @@ for (let i = 1; i < 6; i++) {
     result.push(num);
 }
 
+for (let i = 0; i < 6; i++) {
+    // 띄어쓰기된 숫자가 출력 안된다.
+    // document.write(result[i]);
+
+    document.write('<span class="ball">' + result[i] + '</span>');
+}
 console.log("결과:", result);
