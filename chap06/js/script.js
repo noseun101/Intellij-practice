@@ -6,7 +6,7 @@ for (let i = 1; i <= 45; i++) {
 
 let result = [];
 
-for (let i = 1; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
     // Math.floor : 소수점 이하를 없앰.
     let index = Math.floor(Math.random() * list.length);
 
