@@ -20,6 +20,9 @@ for (let i = 0; i < 6; i++) {
     result.push(num);
 }
 
+// 오름차순으로 정렬함
+result.sort();
+
 for (let i = 0; i < 6; i++) {
     // 띄어쓰기된 숫자가 출력 안된다.
     // document.write(result[i]);

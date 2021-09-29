@@ -1,0 +1,14 @@
+.ball {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 1px 3px gray inset;
+    background-color: #FFC107;
+    border-radius: 50%;
+    /* 텍스트 간격 조정*/
+    line-height: 80px;
+    font-size: 50px;
+    text-align: center;
+    margin: 5px;
+
+}
